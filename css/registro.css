@@ -1,0 +1,143 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #403E3E !important; /*gris clarito*/
+}
+.user_card {
+	height: 32em;
+	width: 60em;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: #252323;/*gris oscuro*/
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+.brand_logo_container {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	top: 25px;
+	border-radius: 50%;
+	background: transparent;
+	text-align: center;
+}
+.brand_logo {
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+}
+.col-sm {
+	min-width:13em;
+}
+.login_btn {
+	width: 100%;
+	background: #E79733 !important;
+	color: white !important;
+}
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.login_container {
+	padding: 0 1rem;
+}
+
+.inputs_usuario{
+	border: none;
+	border-bottom: 1px solid #865454;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #83817f;
+	front-size: 16px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	background-color: black !important;
+}
+
+.texto_secundario{
+	color: #9B9894;
+	font-size: .7em;
+}
+.titulo_menor{
+	color: #cac6c1;
+}
+
+.content-select{
+	max-width: 250px;
+	position: relative;
+}
+ 
+.content-select select{
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #252323;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: #999;
+	font-family:'Quicksand', sans-serif;
+	border:1px solid #865454;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+ 
+.content-select select:hover{
+	background: #403E3E;
+} 
+
+
+.content-input input,
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.content-select i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #403E3E;
+	border-bottom:4px solid #403E3E;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
+ 
+.content-select:hover i{
+	margin-top: 3px;
+	border-left:4px solid #fff;
+	border-bottom:4px solid #fff;
+}
+
+input::-webkit-calendar-picker-indicator {
+    color: #403E3E;
+    opacity: 1;
+}
+
+
+
+

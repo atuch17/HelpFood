@@ -1,0 +1,70 @@
+body{/**/
+	background:#403E3E;
+	color:#fff;
+	font-size:16px;
+	margin:2em 4em ;
+}
+iframe {
+    border-style: none;
+	height:3.5em;
+}
+.opciones{
+	background:#5F5A5A;	
+}
+
+.cuerpo{
+	background:#fff;
+	border-radius:5px;
+	height:100%;
+}
+
+.container{
+	margin-top:1em;
+}
+
+#nav{/**/
+	border-radius:5px;
+	position: relative;
+}
+.index_title{/**/
+	color:#000;
+	font-size:1.5em;
+	cursor: -webkit-grab;
+	font-family: Montserrat, Helvetica, Sans-serif;
+}
+
+.form-control{/*color de la barra de navegacion*/
+	background:#D7D6D6;	/*gris*/
+}
+.dropdown-item.active, .dropdown-item:active {/*color al seleccionar una opcion del perfil*/
+	background-color: #bd2130; /*rojo*/
+}
+.foto_logo{
+	text-align:center;
+}
+.logo{
+	margin-top:3em;
+	/* height:15em; */
+	height:30em;
+}
+.d-block{
+	height:60vh;
+}
+footer{	
+	margin-top:auto;
+	position:absolute;
+	bottom:0;
+	text-align:right;	
+	margin:0;
+	font-size:.7em;
+}
+
+.redes{
+	transform: scale(0.7);
+}
+
+
+
+
+
+
